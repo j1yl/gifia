@@ -9,7 +9,7 @@ const Search = () => {
             type="text"
             name="search"
             placeholder="search by tags on giphy"
-            className="w-full p-2"
+            className="w-full p-2 focus:outline-none"
           />
           <button className="flex justify-between gap-2 items-center">
             <svg
