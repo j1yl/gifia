@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Search />
-      <Content query={"Test"} />
+      <Content query={"cats"} />
     </>
   );
 }
