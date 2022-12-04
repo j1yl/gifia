@@ -1,5 +1,7 @@
 import React from "react";
 
+const APIKEY = process.env.GIPHY_API;
+
 const getData = async () => {
   const res = await fetch("endpoint");
 
